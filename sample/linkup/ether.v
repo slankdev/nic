@@ -1,31 +1,5 @@
 `timescale 1ns / 1ps
 
-//module ether_tx(
-//	eth_tx_clk, eth_txd, eth_tx_en, eth_crs, eth_col,
-//	etx_en,
-//);
-//
-//	input eth_tx_clk;
-//	output [3:0] eth_txd;
-//	output eth_tx_en;
-//	input eth_crs;
-//	input eth_col;
-//	output eth_en;
-//
-//endmodule
-
-//module ether_rx(
-//	eth_rx_clk, eth_rxd, eth_rx_dv, eth_rx_err,
-//	erx_rcv,
-//);
-//
-//	input eth_rx_clk;
-//	input [3:0] eth_rxd;
-//	input eth_rx_dv
-//	input eth_rx_err;
-//
-//endmodule
-
 module ether_ctrl(
 	ectl_mdc_out,
 	ectl_mdio_z, ectl_mdio_in, ectl_mdio_out,
