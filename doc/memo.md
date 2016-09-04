@@ -11,17 +11,24 @@
 
 | Name         | GPIO No  | Pin No     |
 |:------------:|:--------:|:----------:|
-| E\_nRST      | 9        | PIN\_      |
 | E\_TXER      | -        | PIN\_      |
 | E\_TXEN      | 2        | PIN\_AA20  |
 | E\_TX1       | 6        | PIN\_AB19  |
 | E\_TX0       | 4        | PIN\_AB20  |
+
+| Name         | GPIO No  | Pin No     |
+|:------------:|:--------:|:----------:|
 | E\_RMII/RXDV | -        | PIN\_      |
-| E\_RX1       | 5        | PIN\_AB18  |
-| E\_RX0       | 7        | PIN\_AA19  |
 | E\_RXDV      | 1        | PIN\_AA22  |
 | E\_RXER      | 3        | PIN\_      |
+| E\_RX1       | 5        | PIN\_AB18  |
+| E\_RX0       | 7        | PIN\_AA19  |
+
+
+| Name         | GPIO No  | Pin No     |
+|:------------:|:--------:|:----------:|
 | E\_MDC       | 10       | PIN\_AB17  |
 | E\_MDIO      | 8        | PIN\_AA18  |
 | E\_nINT      | 25       | PIN\_      |
+| E\_nRST      | 9        | PIN\_      |
 | E\_REFCK     | 19       | PIN\_R16   |
